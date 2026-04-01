@@ -1,20 +1,9 @@
-// Calcula el promedio de una lista de N datos
 
-Algoritmo Promedio
-
-	Escribir "Ingrese la cantidad de datos:"
-	Leer n
+Algoritmo Primero
+definir alumnos como entero 
+	Escribir "Ingrese total de alumnos registrados"
+	Leer alumnos
 	
-	acum<-0
-	
-	Para i<-1 Hasta n Hacer
-		Escribir "Ingrese el dato ",i,":"
-		Leer dato
-		acum<-acum+dato
-	FinPara
-	
-	prom<-acum/n
-	
-	Escribir "El promedio es: ",prom
+	Escribir "Los alumnos ingresados son: ",alumnos
 	
 FinAlgoritmo
